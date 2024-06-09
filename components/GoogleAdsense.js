@@ -64,7 +64,7 @@ function getNodesWithAdsByGoogleClass(node) {
 export const initGoogleAdsense = async ADSENSE_GOOGLE_ID => {
   console.log('Load Adsense')
   loadExternalResource(
-    `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_GOOGLE_ID}`,
+    `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_GOOGLE_ID} crossorigin="anonymous"`,
     'js'
   ).then(url => {
     setTimeout(() => {
