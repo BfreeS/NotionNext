@@ -95,8 +95,6 @@ const GlobalHead = props => {
 
   return (
     <Head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8153403399519878"
-     crossorigin="anonymous"></script>
       <link rel='icon' href={favicon} />
       <title>{title}</title>
       <meta name='theme-color' content={BACKGROUND_DARK} />
