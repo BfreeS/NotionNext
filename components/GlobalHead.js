@@ -100,7 +100,7 @@ const GlobalHead = props => {
       <link rel='icon' href={favicon} />
       <title>{title}</title>
       <meta name='theme-color' content={BACKGROUND_DARK} />
-      <meta name="google-adsense-account" content="ca-pub-8153403399519878" ></meta>
+      <meta name="ezoic-site-verification" content="OEAMsDE49aWKujTzJ6PO66zJ4Yh2Je" />
       <meta
         name='viewport'
         content='width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0'
